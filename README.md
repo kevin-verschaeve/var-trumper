@@ -1,15 +1,20 @@
-VarDumper Component
+VarTrumper
 ===================
 
-The VarDumper component provides mechanisms for walking through any arbitrary
-PHP variable. Built on top, it provides a better `dump()` function that you
-can use instead of `var_dump`.
+Make VarDumper Great Again
 
-Resources
----------
+# Unofficial var dumper
+(from the US president)
 
-  * [Documentation](https://symfony.com/doc/current/components/var_dumper/introduction.html)
-  * [Contributing](https://symfony.com/doc/current/contributing/index.html)
-  * [Report issues](https://github.com/symfony/symfony/issues) and
-    [send Pull Requests](https://github.com/symfony/symfony/pulls)
-    in the [main Symfony repository](https://github.com/symfony/symfony)
+This use the symfony VarDumper component
+
+## Installation
+It is not accessible from composer yet
+
+You can clone this repository and add it to your project
+
+## Usage
+Once installed, just use it like this: `trump($myVar)`
+
+#### This is just for fun
+You probably want to install the official [VarDumper](https://github.com/symfony/var-dumper)
