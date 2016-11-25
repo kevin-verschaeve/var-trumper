@@ -1,6 +1,5 @@
 VarTrumper
 ===================
-
 Make VarDumper Great Again
 
 # Unofficial var dumper
