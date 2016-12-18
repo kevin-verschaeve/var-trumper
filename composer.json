@@ -2,7 +2,8 @@
     "name": "keversc/var-trumper",
     "require": {
         "php": ">=5.6",
-        "symfony/var-dumper": "^3.1"
+        "symfony/var-dumper": "^3.1",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
         "files": ["Resources/functions/trump.php"]
