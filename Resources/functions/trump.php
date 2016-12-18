@@ -1,8 +1,8 @@
 <?php
 
 if (!function_exists('trump')) {
-    function trump($var)
+    function trump()
     {
-        dump($var);
+        dump(...func_get_args());
     }
 }

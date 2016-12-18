@@ -12,6 +12,8 @@ It is not accessible from composer yet
 
 You can clone this repository and add it to your project
 
+**Your PHP version must 5.6 or higher**
+
 ## Usage
 Once installed, just use it like this: `trump($myVar)`
 
