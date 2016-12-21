@@ -11,7 +11,7 @@ This use the symfony VarDumper component
 In order to install this amazing lib, please run:
 
 ```
-$ composer require keversc/var-trumper
+$ composer require --dev keversc/var-trumper
 ```
 
 You can also clone this repository and add it to your project
