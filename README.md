@@ -8,9 +8,13 @@ Make VarDumper Great Again
 This use the symfony VarDumper component
 
 ## Installation
-It is not accessible from composer yet
+In order to install this amazing lib, please run:
 
-You can clone this repository and add it to your project
+```
+$ composer require --dev keversc/var-trumper
+```
+
+You can also clone this repository and add it to your project
 
 **Your PHP version must 5.6 or higher**
 
