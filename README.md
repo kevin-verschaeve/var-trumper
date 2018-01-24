@@ -21,5 +21,13 @@ You can also clone this repository and add it to your project
 ## Usage
 Once installed, just use it like this: `trump($myVar)`
 
+You can disable the quote and only use the `trump` function by calling:
+```
+use \VarTrumper\VarTrumper;
+...
+
+VarTrumper::disableQuote();
+```
+
 #### This is just for fun
 You probably want to install the official [VarDumper](https://github.com/symfony/var-dumper)
