@@ -14,9 +14,7 @@ In order to install this amazing lib, please run:
 $ composer require --dev keversc/var-trumper
 ```
 
-You can also clone this repository and add it to your project
-
-**Your PHP version must 5.6 or higher**
+**Your PHP version must be 5.6 or higher**
 
 ## Usage
 Once installed, just use it like this: `trump($myVar)`
