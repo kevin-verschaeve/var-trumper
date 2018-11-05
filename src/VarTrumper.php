@@ -14,7 +14,7 @@ class VarTrumper
             $response = (new Guzzle())->get('https://api.whatdoestrumpthink.com/api/v1/quotes/random');
 
             if (200 === $response->getStatusCode()) {
-                self::displayQuote(json_decode($response->getBody()->getContents())->message);
+                dump(json_decode($response->getBody()->getContents())->message.' -- D. Trump');
             }
         }
 
@@ -24,10 +24,5 @@ class VarTrumper
     public static function disableQuote()
     {
         self::$addQuote = false;
-    }
-
-    private static function displayQuote($quote)
-    {
-        printf('<p style="background: black;margin: 0; color: #56DB3A; padding: 5px; font-weight: bold">%s -- D. Trump</p>', $quote);
     }
 }
