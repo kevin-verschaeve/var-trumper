@@ -1,5 +1,8 @@
 {
     "name": "keversc/var-trumper",
+    "description": "Add a citation of D. Trump to your dumps while debugging",
+    "version": "0.4.0",
+    "keywords": ["dumper", "var-dumper", "Trump", "debug"],
     "require": {
         "php": ">=5.6",
         "symfony/var-dumper": "^3.1 || ^4.0",
@@ -10,5 +13,11 @@
         "psr-4": {
             "VarTrumper\\": "src"
         }
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Kevin Verschaeve",
+        "email": "kevin.verschaeve@live.fr",
+        "homepage": "https://github.com/kevin-verschaeve"
     }
 }
