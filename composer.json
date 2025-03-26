@@ -5,7 +5,7 @@
     "keywords": ["dumper", "var-dumper", "Trump", "debug"],
     "require": {
         "php": ">=5.6",
-        "symfony/var-dumper": "^3.1 || ^4.0",
+        "symfony/var-dumper": ">=3",
         "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
