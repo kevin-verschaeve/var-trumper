@@ -1,7 +1,7 @@
 {
     "name": "keversc/var-trumper",
     "description": "Add a citation of D. Trump to your dumps while debugging",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "keywords": ["dumper", "var-dumper", "Trump", "debug"],
     "require": {
         "php": ">=5.6",
