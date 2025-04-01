@@ -1,12 +1,11 @@
 {
     "name": "keversc/var-trumper",
     "description": "Add a citation of D. Trump to your dumps while debugging",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "keywords": ["dumper", "var-dumper", "Trump", "debug"],
     "require": {
         "php": ">=5.6",
-        "symfony/var-dumper": ">=3",
-        "guzzlehttp/guzzle": "^6.2"
+        "symfony/var-dumper": ">=3"
     },
     "autoload": {
         "files": ["Resources/functions/trump.php"],
